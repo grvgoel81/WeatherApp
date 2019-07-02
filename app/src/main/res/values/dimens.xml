@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="recyclerview_text_size">16sp</dimen>
+    <dimen name="recyclerviewLeftMargin">20dp</dimen>
+    <dimen name="recyclerviewRightMargin">20dp</dimen>
+    <dimen name="recyclerviewTopMargin">20dp</dimen>
+    <dimen name="error_messgae_text_size">54sp</dimen>
+    <dimen name="retry_padding">10dp</dimen>
+    <dimen name="status_text_size">50sp</dimen>
+    <dimen name="status_padding">28sp</dimen>
+</resources>

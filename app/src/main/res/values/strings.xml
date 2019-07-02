@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="error_message">Something went wrong at our end.</string>
+    <string name="btnRetry">RETRY</string>
+    <string name="gps_connection_turn_on">Please turn on your GPS Connection</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="trace_location">Unable to Trace your location</string>
+    <string name="celsius">C</string>
+</resources>

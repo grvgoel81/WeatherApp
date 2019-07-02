@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/recyclerviewLeftMargin"
+    android:layout_marginRight="@dimen/recyclerviewRightMargin"
+    android:layout_marginTop="@dimen/recyclerviewTopMargin">
+
+    <TextView
+        android:id="@+id/tvDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tuesday"
+        android:textSize="@dimen/recyclerview_text_size"
+        android:textColor="@color/temperatureColor"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/tvDayTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24 C"
+        android:textSize="@dimen/recyclerview_text_size"
+        android:textColor="@color/temperatureColor"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentRight="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/tvDay"
+        android:background="#d3D3D3"/>
+
+</RelativeLayout>

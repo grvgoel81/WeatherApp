@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/error_screen_background_color">
+    
+    <TextView
+        android:id="@+id/tvErrorMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/error_message"
+        android:textSize="@dimen/error_messgae_text_size"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnRetry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/btnRetry"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvErrorMessage"
+        android:background="#4A4A4A"/>
+    
+
+</RelativeLayout>
