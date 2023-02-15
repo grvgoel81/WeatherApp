@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
         })
 
         btnRetry.setOnClickListener {
-            ll_error.visibility =View.GONE
+            ll_error.visibility = View.GONE
             getLocation()
         }
 
